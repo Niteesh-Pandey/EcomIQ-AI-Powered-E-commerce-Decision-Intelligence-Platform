@@ -525,3 +525,7 @@ EcomIQ connects multiple analytical disciplines:
 | Product Analytics | Evaluate revenue, margin and returns |
 | A/B Testing | Evaluate experiments |
 | Predictive Analytics | Identify
+
+
+# Author -
+[Niteesh pandey] LinkedIn: [https://www.linkedin.com/in/niteeshpandey9555/] Portfolio: [https://niteesh-pandey.github.io]
