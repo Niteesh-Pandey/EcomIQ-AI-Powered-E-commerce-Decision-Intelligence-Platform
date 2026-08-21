@@ -1,0 +1,2 @@
+n_control,n_treatment,conversion_rate_control_pct,conversion_rate_treatment_pct,absolute_uplift_pct_points,ci_95_lower_pct_points,ci_95_upper_pct_points,z_statistic,p_value,statistically_significant,business_significant,revenue_lift_in_experiment,decision
+3981,4019,11.73,14.01,2.28,0.81,3.74,3.041,0.0024,True,True,308259.38,SHIP

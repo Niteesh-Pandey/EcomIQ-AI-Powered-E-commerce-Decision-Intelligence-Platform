@@ -1,0 +1,10 @@
+rfm_segment,recommended_action,num_customers,total_monetary
+Champions,"VIP treatment, early access to new products, upsell premium items",1972.0,293019890.98
+Loyal Customers,"Cross-sell complementary products, loyalty rewards program",2549.0,188502796.47
+Potential Loyalists,Membership/loyalty program invite to increase frequency,182.0,9699201.41
+New Customers,"Onboarding sequence, first-purchase follow-up, education content",1055.0,28422251.84
+At Risk,Targeted win-back campaign with personalized offer before they're lost,1094.0,52442827.98
+Cannot Lose Them,"Urgent high-touch outreach — high past value, going cold",646.0,74036743.3
+Hibernating,"Low-cost reactivation email, otherwise low priority",1025.0,36198124.9
+Lost,Win-back campaign only if CAC-justified; otherwise deprioritize,1913.0,31561700.99
+Others,Monitor — doesn't fit a clean pattern yet,,
