@@ -1,0 +1,1496 @@
+{
+  "project": "AI-Powered E-commerce Customer, Revenue & Growth Intelligence Platform",
+  "question_routes": [
+    "ml_predictions",
+    "python_analytics"
+  ],
+  "ml_predictions": {
+    "model": "Random Forest classifier",
+    "churn_definition": "No completed order in the last 90 days",
+    "roc_auc": 0.7,
+    "roc_auc_source": "supplied project report",
+    "high_value_high_risk_customers": 407,
+    "customers_with_purchase_history": 10436,
+    "risk_segments": {
+      "Medium Risk": 5362,
+      "High Risk": 3501,
+      "Low Risk": 1573
+    }
+  },
+  "python_analytics": {
+    "source_analyses": [
+      "EDA",
+      "Churn Prediction",
+      "Revenue Forecasting",
+      "Anomaly Detection",
+      "A/B Testing",
+      "RFM Customer Segmentation"
+    ],
+    "monthly_revenue": {
+      "status": "not_found",
+      "file": "monthly_revenue.csv"
+    },
+    "churn_risk_scores": {
+      "status": "success",
+      "row_count": 10436,
+      "columns": [
+        "customer_id",
+        "days_since_last_purchase",
+        "purchase_frequency",
+        "total_spend",
+        "avg_order_value",
+        "number_of_sessions",
+        "cart_abandonment",
+        "returns",
+        "discount_usage",
+        "churned",
+        "churn_probability",
+        "risk_segment"
+      ],
+      "sample": [
+        {
+          "customer_id": "C101110",
+          "days_since_last_purchase": 579,
+          "purchase_frequency": 1,
+          "total_spend": 68951.55,
+          "avg_order_value": 68951.55,
+          "number_of_sessions": 10.0,
+          "cart_abandonment": 1.0,
+          "returns": 2.0,
+          "discount_usage": 0.0,
+          "churned": 1,
+          "churn_probability": 0.8601964974190736,
+          "risk_segment": "High Risk"
+        },
+        {
+          "customer_id": "C103925",
+          "days_since_last_purchase": 642,
+          "purchase_frequency": 1,
+          "total_spend": 67860.846,
+          "avg_order_value": 67860.846,
+          "number_of_sessions": 8.0,
+          "cart_abandonment": 0.0,
+          "returns": 1.0,
+          "discount_usage": 1.0,
+          "churned": 1,
+          "churn_probability": 0.8366556023456408,
+          "risk_segment": "High Risk"
+        },
+        {
+          "customer_id": "C100595",
+          "days_since_last_purchase": 193,
+          "purchase_frequency": 1,
+          "total_spend": 69182.458,
+          "avg_order_value": 69182.458,
+          "number_of_sessions": 9.0,
+          "cart_abandonment": 0.0,
+          "returns": 1.0,
+          "discount_usage": 1.0,
+          "churned": 1,
+          "churn_probability": 0.8351183198553062,
+          "risk_segment": "High Risk"
+        },
+        {
+          "customer_id": "C101405",
+          "days_since_last_purchase": 755,
+          "purchase_frequency": 1,
+          "total_spend": 68008.77900000001,
+          "avg_order_value": 68008.77900000001,
+          "number_of_sessions": 16.0,
+          "cart_abandonment": 3.0,
+          "returns": 1.0,
+          "discount_usage": 1.0,
+          "churned": 1,
+          "churn_probability": 0.8317893972817886,
+          "risk_segment": "High Risk"
+        },
+        {
+          "customer_id": "C100339",
+          "days_since_last_purchase": 472,
+          "purchase_frequency": 1,
+          "total_spend": 69596.334,
+          "avg_order_value": 69596.334,
+          "number_of_sessions": 13.0,
+          "cart_abandonment": 2.0,
+          "returns": 1.0,
+          "discount_usage": 1.0,
+          "churned": 1,
+          "churn_probability": 0.8314420068956914,
+          "risk_segment": "High Risk"
+        },
+        {
+          "customer_id": "C107089",
+          "days_since_last_purchase": 277,
+          "purchase_frequency": 1,
+          "total_spend": 75695.951,
+          "avg_order_value": 75695.951,
+          "number_of_sessions": 6.0,
+          "cart_abandonment": 2.0,
+          "returns": 2.0,
+          "discount_usage": 1.0,
+          "churned": 1,
+          "churn_probability": 0.8280283264508742,
+          "risk_segment": "High Risk"
+        },
+        {
+          "customer_id": "C113120",
+          "days_since_last_purchase": 382,
+          "purchase_frequency": 1,
+          "total_spend": 23464.4395,
+          "avg_order_value": 23464.4395,
+          "number_of_sessions": 21.0,
+          "cart_abandonment": 6.0,
+          "returns": 0.0,
+          "discount_usage": 1.0,
+          "churned": 1,
+          "churn_probability": 0.8227645765372867,
+          "risk_segment": "High Risk"
+        },
+        {
+          "customer_id": "C101935",
+          "days_since_last_purchase": 416,
+          "purchase_frequency": 1,
+          "total_spend": 23981.645,
+          "avg_order_value": 23981.645,
+          "number_of_sessions": 15.0,
+          "cart_abandonment": 6.0,
+          "returns": 0.0,
+          "discount_usage": 1.0,
+          "churned": 1,
+          "churn_probability": 0.812368784404691,
+          "risk_segment": "High Risk"
+        },
+        {
+          "customer_id": "C103975",
+          "days_since_last_purchase": 67,
+          "purchase_frequency": 1,
+          "total_spend": 25536.855,
+          "avg_order_value": 25536.855,
+          "number_of_sessions": 14.0,
+          "cart_abandonment": 6.0,
+          "returns": 0.0,
+          "discount_usage": 1.0,
+          "churned": 0,
+          "churn_probability": 0.809228528148232,
+          "risk_segment": "High Risk"
+        },
+        {
+          "customer_id": "C111225",
+          "days_since_last_purchase": 646,
+          "purchase_frequency": 1,
+          "total_spend": 89550.48000000001,
+          "avg_order_value": 89550.48000000001,
+          "number_of_sessions": 4.0,
+          "cart_abandonment": 1.0,
+          "returns": 0.0,
+          "discount_usage": 0.0,
+          "churned": 1,
+          "churn_probability": 0.8084880348047535,
+          "risk_segment": "High Risk"
+        },
+        {
+          "customer_id": "C112405",
+          "days_since_last_purchase": 734,
+          "purchase_frequency": 1,
+          "total_spend": 74564.265,
+          "avg_order_value": 74564.265,
+          "number_of_sessions": 8.0,
+          "cart_abandonment": 0.0,
+          "returns": 1.0,
+          "discount_usage": 1.0,
+          "churned": 1,
+          "churn_probability": 0.8084197139086862,
+          "risk_segment": "High Risk"
+        },
+        {
+          "customer_id": "C106830",
+          "days_since_last_purchase": 309,
+          "purchase_frequency": 1,
+          "total_spend": 22458.912,
+          "avg_order_value": 22458.912,
+          "number_of_sessions": 14.0,
+          "cart_abandonment": 6.0,
+          "returns": 0.0,
+          "discount_usage": 1.0,
+          "churned": 1,
+          "churn_probability": 0.8062958452592608,
+          "risk_segment": "High Risk"
+        },
+        {
+          "customer_id": "C112138",
+          "days_since_last_purchase": 273,
+          "purchase_frequency": 1,
+          "total_spend": 46380.546,
+          "avg_order_value": 46380.546,
+          "number_of_sessions": 10.0,
+          "cart_abandonment": 1.0,
+          "returns": 2.0,
+          "discount_usage": 1.0,
+          "churned": 1,
+          "churn_probability": 0.8053809292070498,
+          "risk_segment": "High Risk"
+        },
+        {
+          "customer_id": "C114095",
+          "days_since_last_purchase": 869,
+          "purchase_frequency": 1,
+          "total_spend": 54852.1735,
+          "avg_order_value": 54852.1735,
+          "number_of_sessions": 8.0,
+          "cart_abandonment": 6.0,
+          "returns": 2.0,
+          "discount_usage": 1.0,
+          "churned": 1,
+          "churn_probability": 0.8024324698275297,
+          "risk_segment": "High Risk"
+        },
+        {
+          "customer_id": "C101701",
+          "days_since_last_purchase": 216,
+          "purchase_frequency": 1,
+          "total_spend": 70452.5475,
+          "avg_order_value": 70452.5475,
+          "number_of_sessions": 11.0,
+          "cart_abandonment": 3.0,
+          "returns": 1.0,
+          "discount_usage": 1.0,
+          "churned": 1,
+          "churn_probability": 0.8019494332903156,
+          "risk_segment": "High Risk"
+        },
+        {
+          "customer_id": "C107376",
+          "days_since_last_purchase": 185,
+          "purchase_frequency": 1,
+          "total_spend": 24007.8165,
+          "avg_order_value": 24007.8165,
+          "number_of_sessions": 14.0,
+          "cart_abandonment": 4.0,
+          "returns": 0.0,
+          "discount_usage": 1.0,
+          "churned": 1,
+          "churn_probability": 0.8015671234136047,
+          "risk_segment": "High Risk"
+        },
+        {
+          "customer_id": "C106214",
+          "days_since_last_purchase": 610,
+          "purchase_frequency": 1,
+          "total_spend": 67202.65,
+          "avg_order_value": 67202.65,
+          "number_of_sessions": 7.0,
+          "cart_abandonment": 2.0,
+          "returns": 0.0,
+          "discount_usage": 0.0,
+          "churned": 1,
+          "churn_probability": 0.7983070959675179,
+          "risk_segment": "High Risk"
+        },
+        {
+          "customer_id": "C103427",
+          "days_since_last_purchase": 176,
+          "purchase_frequency": 1,
+          "total_spend": 36713.1395,
+          "avg_order_value": 36713.1395,
+          "number_of_sessions": 10.0,
+          "cart_abandonment": 4.0,
+          "returns": 3.0,
+          "discount_usage": 1.0,
+          "churned": 1,
+          "churn_probability": 0.7982656416214011,
+          "risk_segment": "High Risk"
+        },
+        {
+          "customer_id": "C112656",
+          "days_since_last_purchase": 50,
+          "purchase_frequency": 1,
+          "total_spend": 24878.6925,
+          "avg_order_value": 24878.6925,
+          "number_of_sessions": 15.0,
+          "cart_abandonment": 4.0,
+          "returns": 0.0,
+          "discount_usage": 1.0,
+          "churned": 0,
+          "churn_probability": 0.7982370584089287,
+          "risk_segment": "High Risk"
+        },
+        {
+          "customer_id": "C107421",
+          "days_since_last_purchase": 257,
+          "purchase_frequency": 1,
+          "total_spend": 71215.209,
+          "avg_order_value": 71215.209,
+          "number_of_sessions": 9.0,
+          "cart_abandonment": 2.0,
+          "returns": 1.0,
+          "discount_usage": 1.0,
+          "churned": 1,
+          "churn_probability": 0.7980547583129048,
+          "risk_segment": "High Risk"
+        }
+      ]
+    },
+    "retention_priority": {
+      "status": "success",
+      "row_count": 407,
+      "columns": [
+        "customer_id",
+        "days_since_last_purchase",
+        "purchase_frequency",
+        "total_spend",
+        "avg_order_value",
+        "number_of_sessions",
+        "cart_abandonment",
+        "returns",
+        "discount_usage",
+        "churned",
+        "churn_probability",
+        "risk_segment"
+      ],
+      "sample": [
+        {
+          "customer_id": "C111360",
+          "days_since_last_purchase": 119,
+          "purchase_frequency": 13,
+          "total_spend": 368644.1975,
+          "avg_order_value": 28357.24596153846,
+          "number_of_sessions": 18.0,
+          "cart_abandonment": 6.0,
+          "returns": 8.0,
+          "discount_usage": 0.4615384615384615,
+          "churned": 1,
+          "churn_probability": 0.612387839284956,
+          "risk_segment": "High Risk"
+        },
+        {
+          "customer_id": "C110674",
+          "days_since_last_purchase": 205,
+          "purchase_frequency": 4,
+          "total_spend": 207347.38,
+          "avg_order_value": 51836.845,
+          "number_of_sessions": 7.0,
+          "cart_abandonment": 3.0,
+          "returns": 2.0,
+          "discount_usage": 0.5,
+          "churned": 1,
+          "churn_probability": 0.6992014277707806,
+          "risk_segment": "High Risk"
+        },
+        {
+          "customer_id": "C102034",
+          "days_since_last_purchase": 269,
+          "purchase_frequency": 4,
+          "total_spend": 198569.276,
+          "avg_order_value": 49642.319,
+          "number_of_sessions": 8.0,
+          "cart_abandonment": 3.0,
+          "returns": 2.0,
+          "discount_usage": 0.5,
+          "churned": 1,
+          "churn_probability": 0.6751530434661278,
+          "risk_segment": "High Risk"
+        },
+        {
+          "customer_id": "C114933",
+          "days_since_last_purchase": 195,
+          "purchase_frequency": 4,
+          "total_spend": 197827.1205,
+          "avg_order_value": 49456.780125000005,
+          "number_of_sessions": 5.0,
+          "cart_abandonment": 1.0,
+          "returns": 1.0,
+          "discount_usage": 0.25,
+          "churned": 1,
+          "churn_probability": 0.6543501274237751,
+          "risk_segment": "High Risk"
+        },
+        {
+          "customer_id": "C111904",
+          "days_since_last_purchase": 398,
+          "purchase_frequency": 4,
+          "total_spend": 193718.3605,
+          "avg_order_value": 48429.590125,
+          "number_of_sessions": 3.0,
+          "cart_abandonment": 1.0,
+          "returns": 1.0,
+          "discount_usage": 0.5,
+          "churned": 1,
+          "churn_probability": 0.6574251935064135,
+          "risk_segment": "High Risk"
+        },
+        {
+          "customer_id": "C100628",
+          "days_since_last_purchase": 98,
+          "purchase_frequency": 4,
+          "total_spend": 183501.568,
+          "avg_order_value": 45875.392,
+          "number_of_sessions": 12.0,
+          "cart_abandonment": 4.0,
+          "returns": 1.0,
+          "discount_usage": 0.75,
+          "churned": 1,
+          "churn_probability": 0.6876151138616186,
+          "risk_segment": "High Risk"
+        },
+        {
+          "customer_id": "C106972",
+          "days_since_last_purchase": 131,
+          "purchase_frequency": 4,
+          "total_spend": 182418.9555,
+          "avg_order_value": 45604.738875,
+          "number_of_sessions": 11.0,
+          "cart_abandonment": 4.0,
+          "returns": 0.0,
+          "discount_usage": 0.75,
+          "churned": 1,
+          "churn_probability": 0.6295378504926501,
+          "risk_segment": "High Risk"
+        },
+        {
+          "customer_id": "C100549",
+          "days_since_last_purchase": 105,
+          "purchase_frequency": 4,
+          "total_spend": 180320.6115,
+          "avg_order_value": 45080.152875,
+          "number_of_sessions": 12.0,
+          "cart_abandonment": 4.0,
+          "returns": 1.0,
+          "discount_usage": 0.5,
+          "churned": 1,
+          "churn_probability": 0.6691295613166263,
+          "risk_segment": "High Risk"
+        },
+        {
+          "customer_id": "C110847",
+          "days_since_last_purchase": 74,
+          "purchase_frequency": 3,
+          "total_spend": 161071.289,
+          "avg_order_value": 53690.42966666666,
+          "number_of_sessions": 12.0,
+          "cart_abandonment": 1.0,
+          "returns": 2.0,
+          "discount_usage": 0.3333333333333333,
+          "churned": 0,
+          "churn_probability": 0.6672008753079336,
+          "risk_segment": "High Risk"
+        },
+        {
+          "customer_id": "C104143",
+          "days_since_last_purchase": 214,
+          "purchase_frequency": 3,
+          "total_spend": 160721.7,
+          "avg_order_value": 53573.9,
+          "number_of_sessions": 8.0,
+          "cart_abandonment": 4.0,
+          "returns": 1.0,
+          "discount_usage": 0.0,
+          "churned": 1,
+          "churn_probability": 0.6991318331659176,
+          "risk_segment": "High Risk"
+        },
+        {
+          "customer_id": "C109436",
+          "days_since_last_purchase": 186,
+          "purchase_frequency": 3,
+          "total_spend": 156120.976,
+          "avg_order_value": 52040.32533333334,
+          "number_of_sessions": 11.0,
+          "cart_abandonment": 4.0,
+          "returns": 0.0,
+          "discount_usage": 0.6666666666666666,
+          "churned": 1,
+          "churn_probability": 0.6217374318565128,
+          "risk_segment": "High Risk"
+        },
+        {
+          "customer_id": "C112886",
+          "days_since_last_purchase": 570,
+          "purchase_frequency": 2,
+          "total_spend": 154917.062,
+          "avg_order_value": 77458.53099999999,
+          "number_of_sessions": 12.0,
+          "cart_abandonment": 3.0,
+          "returns": 0.0,
+          "discount_usage": 0.5,
+          "churned": 1,
+          "churn_probability": 0.6979314717239856,
+          "risk_segment": "High Risk"
+        },
+        {
+          "customer_id": "C101762",
+          "days_since_last_purchase": 282,
+          "purchase_frequency": 3,
+          "total_spend": 145495.70299999998,
+          "avg_order_value": 48498.56766666666,
+          "number_of_sessions": 8.0,
+          "cart_abandonment": 4.0,
+          "returns": 0.0,
+          "discount_usage": 0.3333333333333333,
+          "churned": 1,
+          "churn_probability": 0.6044944592052558,
+          "risk_segment": "High Risk"
+        },
+        {
+          "customer_id": "C101758",
+          "days_since_last_purchase": 336,
+          "purchase_frequency": 2,
+          "total_spend": 144192.72,
+          "avg_order_value": 72096.36,
+          "number_of_sessions": 10.0,
+          "cart_abandonment": 5.0,
+          "returns": 0.0,
+          "discount_usage": 0.0,
+          "churned": 1,
+          "churn_probability": 0.6395175308070049,
+          "risk_segment": "High Risk"
+        },
+        {
+          "customer_id": "C110630",
+          "days_since_last_purchase": 123,
+          "purchase_frequency": 2,
+          "total_spend": 128124.1375,
+          "avg_order_value": 64062.06874999999,
+          "number_of_sessions": 9.0,
+          "cart_abandonment": 3.0,
+          "returns": 0.0,
+          "discount_usage": 0.5,
+          "churned": 1,
+          "churn_probability": 0.6739950963564624,
+          "risk_segment": "High Risk"
+        },
+        {
+          "customer_id": "C105900",
+          "days_since_last_purchase": 47,
+          "purchase_frequency": 2,
+          "total_spend": 126518.7115,
+          "avg_order_value": 63259.35575,
+          "number_of_sessions": 6.0,
+          "cart_abandonment": 4.0,
+          "returns": 2.0,
+          "discount_usage": 0.5,
+          "churned": 0,
+          "churn_probability": 0.6849415770985785,
+          "risk_segment": "High Risk"
+        },
+        {
+          "customer_id": "C113297",
+          "days_since_last_purchase": 32,
+          "purchase_frequency": 2,
+          "total_spend": 125610.00650000002,
+          "avg_order_value": 62805.00325000001,
+          "number_of_sessions": 11.0,
+          "cart_abandonment": 4.0,
+          "returns": 1.0,
+          "discount_usage": 0.5,
+          "churned": 0,
+          "churn_probability": 0.6464304039019759,
+          "risk_segment": "High Risk"
+        },
+        {
+          "customer_id": "C106119",
+          "days_since_last_purchase": 137,
+          "purchase_frequency": 2,
+          "total_spend": 124067.80000000002,
+          "avg_order_value": 62033.90000000001,
+          "number_of_sessions": 11.0,
+          "cart_abandonment": 6.0,
+          "returns": 0.0,
+          "discount_usage": 0.5,
+          "churned": 1,
+          "churn_probability": 0.6423630747812895,
+          "risk_segment": "High Risk"
+        },
+        {
+          "customer_id": "C104050",
+          "days_since_last_purchase": 208,
+          "purchase_frequency": 2,
+          "total_spend": 120835.77,
+          "avg_order_value": 60417.885,
+          "number_of_sessions": 9.0,
+          "cart_abandonment": 3.0,
+          "returns": 1.0,
+          "discount_usage": 0.0,
+          "churned": 1,
+          "churn_probability": 0.6805068180312461,
+          "risk_segment": "High Risk"
+        },
+        {
+          "customer_id": "C103233",
+          "days_since_last_purchase": 319,
+          "purchase_frequency": 2,
+          "total_spend": 120318.59,
+          "avg_order_value": 60159.295,
+          "number_of_sessions": 14.0,
+          "cart_abandonment": 3.0,
+          "returns": 0.0,
+          "discount_usage": 0.0,
+          "churned": 1,
+          "churn_probability": 0.672537531080115,
+          "risk_segment": "High Risk"
+        }
+      ]
+    },
+    "revenue_forecast_90_days": {
+      "status": "success",
+      "row_count": 90,
+      "columns": [
+        "order_day",
+        "forecast_revenue",
+        "lower_bound",
+        "upper_bound"
+      ],
+      "sample": [
+        {
+          "order_day": "2026-01-01",
+          "forecast_revenue": 1506461.788901186,
+          "lower_bound": 151815.3600702791,
+          "upper_bound": 2861108.2177320933
+        },
+        {
+          "order_day": "2026-01-02",
+          "forecast_revenue": 1564050.6228029034,
+          "lower_bound": 209404.19397199643,
+          "upper_bound": 2918697.0516338106
+        },
+        {
+          "order_day": "2026-01-03",
+          "forecast_revenue": 1524258.4749811415,
+          "lower_bound": 169612.04615023476,
+          "upper_bound": 2878904.903812049
+        },
+        {
+          "order_day": "2026-01-04",
+          "forecast_revenue": 1528443.2752817415,
+          "lower_bound": 173796.84645083477,
+          "upper_bound": 2883089.704112649
+        },
+        {
+          "order_day": "2026-01-05",
+          "forecast_revenue": 1534117.5234720898,
+          "lower_bound": 179471.0946411828,
+          "upper_bound": 2888763.952302997
+        },
+        {
+          "order_day": "2026-01-06",
+          "forecast_revenue": 1545886.170909306,
+          "lower_bound": 191239.74207839905,
+          "upper_bound": 2900532.599740213
+        },
+        {
+          "order_day": "2026-01-07",
+          "forecast_revenue": 1539076.824883257,
+          "lower_bound": 184430.3960523501,
+          "upper_bound": 2893723.253714164
+        },
+        {
+          "order_day": "2026-01-08",
+          "forecast_revenue": 1518572.1819122778,
+          "lower_bound": 163925.75308137084,
+          "upper_bound": 2873218.6107431846
+        },
+        {
+          "order_day": "2026-01-09",
+          "forecast_revenue": 1576161.0158139947,
+          "lower_bound": 221514.5869830877,
+          "upper_bound": 2930807.444644902
+        },
+        {
+          "order_day": "2026-01-10",
+          "forecast_revenue": 1536368.8679922335,
+          "lower_bound": 181722.4391613265,
+          "upper_bound": 2891015.29682314
+        },
+        {
+          "order_day": "2026-01-11",
+          "forecast_revenue": 1540553.668292833,
+          "lower_bound": 185907.23946192604,
+          "upper_bound": 2895200.09712374
+        },
+        {
+          "order_day": "2026-01-12",
+          "forecast_revenue": 1546227.916483181,
+          "lower_bound": 191581.48765227408,
+          "upper_bound": 2900874.3453140883
+        },
+        {
+          "order_day": "2026-01-13",
+          "forecast_revenue": 1557996.5639203978,
+          "lower_bound": 203350.1350894908,
+          "upper_bound": 2912642.992751305
+        },
+        {
+          "order_day": "2026-01-14",
+          "forecast_revenue": 1551187.2178943483,
+          "lower_bound": 196540.78906344133,
+          "upper_bound": 2905833.646725255
+        },
+        {
+          "order_day": "2026-01-15",
+          "forecast_revenue": 1530682.574923369,
+          "lower_bound": 176036.14609246212,
+          "upper_bound": 2885329.003754276
+        },
+        {
+          "order_day": "2026-01-16",
+          "forecast_revenue": 1588271.408825086,
+          "lower_bound": 233624.97999417895,
+          "upper_bound": 2942917.837655993
+        },
+        {
+          "order_day": "2026-01-17",
+          "forecast_revenue": 1548479.2610033248,
+          "lower_bound": 193832.83217241775,
+          "upper_bound": 2903125.6898342315
+        },
+        {
+          "order_day": "2026-01-18",
+          "forecast_revenue": 1552664.0613039248,
+          "lower_bound": 198017.6324730178,
+          "upper_bound": 2907310.4901348315
+        },
+        {
+          "order_day": "2026-01-19",
+          "forecast_revenue": 1558338.3094942723,
+          "lower_bound": 203691.88066336536,
+          "upper_bound": 2912984.73832518
+        },
+        {
+          "order_day": "2026-01-20",
+          "forecast_revenue": 1570106.956931489,
+          "lower_bound": 215460.52810058207,
+          "upper_bound": 2924753.3857623963
+        }
+      ]
+    },
+    "revenue_anomalies": {
+      "status": "success",
+      "row_count": 28,
+      "columns": [
+        "order_date",
+        "revenue",
+        "z_score",
+        "is_anomaly"
+      ],
+      "sample": [
+        {
+          "order_date": "2023-02-10",
+          "revenue": 71195.24,
+          "z_score": 2.7797035285154643,
+          "is_anomaly": true
+        },
+        {
+          "order_date": "2023-02-27",
+          "revenue": 148229.209,
+          "z_score": 3.986273693885426,
+          "is_anomaly": true
+        },
+        {
+          "order_date": "2023-03-29",
+          "revenue": 154100.293,
+          "z_score": 3.705281460185073,
+          "is_anomaly": true
+        },
+        {
+          "order_date": "2023-04-04",
+          "revenue": 160646.3935,
+          "z_score": 3.01270617516538,
+          "is_anomaly": true
+        },
+        {
+          "order_date": "2023-04-12",
+          "revenue": 166531.957,
+          "z_score": 2.5587330686498877,
+          "is_anomaly": true
+        },
+        {
+          "order_date": "2023-04-14",
+          "revenue": 199491.6695,
+          "z_score": 2.7643830706634724,
+          "is_anomaly": true
+        },
+        {
+          "order_date": "2023-05-12",
+          "revenue": 291134.2785,
+          "z_score": 3.430926000105752,
+          "is_anomaly": true
+        },
+        {
+          "order_date": "2023-06-19",
+          "revenue": 279645.52,
+          "z_score": 2.7926018900640166,
+          "is_anomaly": true
+        },
+        {
+          "order_date": "2023-11-21",
+          "revenue": 433912.2165,
+          "z_score": 3.067174714267056,
+          "is_anomaly": true
+        },
+        {
+          "order_date": "2024-01-23",
+          "revenue": 484685.988,
+          "z_score": 2.656110291508697,
+          "is_anomaly": true
+        },
+        {
+          "order_date": "2024-02-21",
+          "revenue": 65249.451,
+          "z_score": -2.534911825867331,
+          "is_anomaly": true
+        },
+        {
+          "order_date": "2024-04-06",
+          "revenue": 640086.168,
+          "z_score": 2.5608789866008608,
+          "is_anomaly": true
+        },
+        {
+          "order_date": "2024-04-12",
+          "revenue": 719129.817,
+          "z_score": 2.7871051165769005,
+          "is_anomaly": true
+        },
+        {
+          "order_date": "2024-04-22",
+          "revenue": 757095.257,
+          "z_score": 2.5845079574160805,
+          "is_anomaly": true
+        },
+        {
+          "order_date": "2024-06-13",
+          "revenue": 767234.1795,
+          "z_score": 2.85528089166487,
+          "is_anomaly": true
+        },
+        {
+          "order_date": "2024-08-16",
+          "revenue": 860944.151,
+          "z_score": 2.795528953292529,
+          "is_anomaly": true
+        },
+        {
+          "order_date": "2024-10-15",
+          "revenue": 1162898.366,
+          "z_score": 3.56000448998674,
+          "is_anomaly": true
+        },
+        {
+          "order_date": "2024-11-27",
+          "revenue": 242500.9565,
+          "z_score": -2.5850519143481177,
+          "is_anomaly": true
+        },
+        {
+          "order_date": "2025-02-16",
+          "revenue": 1178090.3625,
+          "z_score": 2.942742421509544,
+          "is_anomaly": true
+        },
+        {
+          "order_date": "2025-03-25",
+          "revenue": 1273797.901,
+          "z_score": 2.707503604398159,
+          "is_anomaly": true
+        }
+      ]
+    },
+    "order_anomalies": {
+      "status": "success",
+      "row_count": 24,
+      "columns": [
+        "order_date",
+        "order_count",
+        "z_score",
+        "is_anomaly"
+      ],
+      "sample": [
+        {
+          "order_date": "2023-01-30",
+          "order_count": 3,
+          "z_score": 3.0293469327220595,
+          "is_anomaly": true
+        },
+        {
+          "order_date": "2023-02-27",
+          "order_count": 5,
+          "z_score": 3.466814256622101,
+          "is_anomaly": true
+        },
+        {
+          "order_date": "2023-03-07",
+          "order_count": 5,
+          "z_score": 2.8218277524340105,
+          "is_anomaly": true
+        },
+        {
+          "order_date": "2023-06-24",
+          "order_count": 11,
+          "z_score": 2.54095516935166,
+          "is_anomaly": true
+        },
+        {
+          "order_date": "2023-12-05",
+          "order_count": 21,
+          "z_score": 3.3776224379485296,
+          "is_anomaly": true
+        },
+        {
+          "order_date": "2024-02-01",
+          "order_count": 26,
+          "z_score": 2.521669660368134,
+          "is_anomaly": true
+        },
+        {
+          "order_date": "2024-03-03",
+          "order_count": 25,
+          "z_score": 2.680863356359134,
+          "is_anomaly": true
+        },
+        {
+          "order_date": "2024-04-30",
+          "order_count": 36,
+          "z_score": 2.945642028134548,
+          "is_anomaly": true
+        },
+        {
+          "order_date": "2024-08-16",
+          "order_count": 39,
+          "z_score": 2.9987284627209623,
+          "is_anomaly": true
+        },
+        {
+          "order_date": "2024-10-14",
+          "order_count": 37,
+          "z_score": 2.5231938747367813,
+          "is_anomaly": true
+        },
+        {
+          "order_date": "2024-10-15",
+          "order_count": 44,
+          "z_score": 3.3480081352623285,
+          "is_anomaly": true
+        },
+        {
+          "order_date": "2025-02-09",
+          "order_count": 49,
+          "z_score": 2.708115799178799,
+          "is_anomaly": true
+        },
+        {
+          "order_date": "2025-02-16",
+          "order_count": 54,
+          "z_score": 3.0882483410450954,
+          "is_anomaly": true
+        },
+        {
+          "order_date": "2025-03-25",
+          "order_count": 57,
+          "z_score": 2.5454805384253123,
+          "is_anomaly": true
+        },
+        {
+          "order_date": "2025-06-27",
+          "order_count": 74,
+          "z_score": 2.688152383512304,
+          "is_anomaly": true
+        },
+        {
+          "order_date": "2025-07-24",
+          "order_count": 90,
+          "z_score": 3.304755939109075,
+          "is_anomaly": true
+        },
+        {
+          "order_date": "2025-09-04",
+          "order_count": 95,
+          "z_score": 2.892016873122921,
+          "is_anomaly": true
+        },
+        {
+          "order_date": "2025-10-28",
+          "order_count": 106,
+          "z_score": 2.540343328318371,
+          "is_anomaly": true
+        },
+        {
+          "order_date": "2025-11-14",
+          "order_count": 117,
+          "z_score": 2.593446024818585,
+          "is_anomaly": true
+        },
+        {
+          "order_date": "2025-12-10",
+          "order_count": 143,
+          "z_score": 2.753173931587995,
+          "is_anomaly": true
+        }
+      ]
+    },
+    "marketing_spend_anomalies": {
+      "status": "success",
+      "row_count": 14,
+      "columns": [
+        "date",
+        "spend",
+        "z_score",
+        "is_anomaly"
+      ],
+      "sample": [
+        {
+          "date": "2023-05-03",
+          "spend": 76785.8,
+          "z_score": 3.0694910788372827,
+          "is_anomaly": true
+        },
+        {
+          "date": "2023-07-30",
+          "spend": 68376.12,
+          "z_score": 2.563925245658915,
+          "is_anomaly": true
+        },
+        {
+          "date": "2023-08-29",
+          "spend": 76944.26,
+          "z_score": 2.950548060934575,
+          "is_anomaly": true
+        },
+        {
+          "date": "2023-11-17",
+          "spend": 81825.23,
+          "z_score": 2.601169739664164,
+          "is_anomaly": true
+        },
+        {
+          "date": "2023-12-19",
+          "spend": 78116.51,
+          "z_score": 2.556022236327544,
+          "is_anomaly": true
+        },
+        {
+          "date": "2024-02-22",
+          "spend": 66161.52,
+          "z_score": 2.6081522912986097,
+          "is_anomaly": true
+        },
+        {
+          "date": "2024-04-12",
+          "spend": 70562.79,
+          "z_score": 2.833033082979172,
+          "is_anomaly": true
+        },
+        {
+          "date": "2024-06-02",
+          "spend": 78826.03,
+          "z_score": 2.8819884633362234,
+          "is_anomaly": true
+        },
+        {
+          "date": "2024-08-04",
+          "spend": 66928.61,
+          "z_score": 2.5062885906815326,
+          "is_anomaly": true
+        },
+        {
+          "date": "2024-12-02",
+          "spend": 74163.91,
+          "z_score": 2.68824982336726,
+          "is_anomaly": true
+        },
+        {
+          "date": "2025-02-16",
+          "spend": 60017.68,
+          "z_score": 2.566714444071762,
+          "is_anomaly": true
+        },
+        {
+          "date": "2025-04-27",
+          "spend": 82244.64,
+          "z_score": 2.8547723529761875,
+          "is_anomaly": true
+        },
+        {
+          "date": "2025-07-30",
+          "spend": 77384.97,
+          "z_score": 2.841270997185374,
+          "is_anomaly": true
+        },
+        {
+          "date": "2025-09-11",
+          "spend": 82361.58,
+          "z_score": 2.6762402286855256,
+          "is_anomaly": true
+        }
+      ]
+    },
+    "refund_anomalies": {
+      "status": "success",
+      "row_count": 28,
+      "columns": [
+        "return_date",
+        "refund_amount",
+        "z_score",
+        "is_anomaly"
+      ],
+      "sample": [
+        {
+          "return_date": "2023-03-23",
+          "refund_amount": 5998.61,
+          "z_score": 3.234884001542537,
+          "is_anomaly": true
+        },
+        {
+          "return_date": "2023-03-26",
+          "refund_amount": 5713.84,
+          "z_score": 2.582467408537882,
+          "is_anomaly": true
+        },
+        {
+          "return_date": "2023-03-30",
+          "refund_amount": 12770.9,
+          "z_score": 4.087179210702357,
+          "is_anomaly": true
+        },
+        {
+          "return_date": "2023-04-01",
+          "refund_amount": 18306.3,
+          "z_score": 4.041798014327247,
+          "is_anomaly": true
+        },
+        {
+          "return_date": "2023-04-05",
+          "refund_amount": 19416.02,
+          "z_score": 3.271697929244237,
+          "is_anomaly": true
+        },
+        {
+          "return_date": "2023-05-09",
+          "refund_amount": 27779.4,
+          "z_score": 3.125674712268016,
+          "is_anomaly": true
+        },
+        {
+          "return_date": "2023-05-26",
+          "refund_amount": 31933.8,
+          "z_score": 2.880876247852169,
+          "is_anomaly": true
+        },
+        {
+          "return_date": "2023-06-28",
+          "refund_amount": 40198.9,
+          "z_score": 3.5004370426653733,
+          "is_anomaly": true
+        },
+        {
+          "return_date": "2023-07-05",
+          "refund_amount": 35898.91,
+          "z_score": 2.629612639441078,
+          "is_anomaly": true
+        },
+        {
+          "return_date": "2023-07-18",
+          "refund_amount": 46189.39,
+          "z_score": 2.6327324324893584,
+          "is_anomaly": true
+        },
+        {
+          "return_date": "2023-07-28",
+          "refund_amount": 46504.64,
+          "z_score": 2.532884554963992,
+          "is_anomaly": true
+        },
+        {
+          "return_date": "2023-09-22",
+          "refund_amount": 58527.36,
+          "z_score": 3.1240162249070558,
+          "is_anomaly": true
+        },
+        {
+          "return_date": "2023-11-01",
+          "refund_amount": 67177.55,
+          "z_score": 3.0966239825963,
+          "is_anomaly": true
+        },
+        {
+          "return_date": "2023-12-01",
+          "refund_amount": 49346.2,
+          "z_score": 2.582540713427549,
+          "is_anomaly": true
+        },
+        {
+          "return_date": "2024-02-02",
+          "refund_amount": 71714.35,
+          "z_score": 3.35184347075355,
+          "is_anomaly": true
+        },
+        {
+          "return_date": "2024-03-01",
+          "refund_amount": 81769.26000000001,
+          "z_score": 2.7907726054465294,
+          "is_anomaly": true
+        },
+        {
+          "return_date": "2024-04-17",
+          "refund_amount": 71844.81,
+          "z_score": 2.585455178459348,
+          "is_anomaly": true
+        },
+        {
+          "return_date": "2024-05-05",
+          "refund_amount": 117329.23,
+          "z_score": 3.597699313316192,
+          "is_anomaly": true
+        },
+        {
+          "return_date": "2024-07-01",
+          "refund_amount": 97068.0,
+          "z_score": 2.800614287536769,
+          "is_anomaly": true
+        },
+        {
+          "return_date": "2024-09-10",
+          "refund_amount": 93236.2,
+          "z_score": 2.5560144623742524,
+          "is_anomaly": true
+        }
+      ]
+    },
+    "rfm_segments": {
+      "status": "success",
+      "row_count": 10436,
+      "columns": [
+        "customer_id",
+        "recency_days",
+        "frequency",
+        "monetary",
+        "r_score",
+        "f_score",
+        "m_score",
+        "rfm_total_score",
+        "rfm_segment"
+      ],
+      "sample": [
+        {
+          "customer_id": "C100000",
+          "recency_days": 255,
+          "frequency": 3,
+          "monetary": 63278.09,
+          "r_score": 2,
+          "f_score": 3,
+          "m_score": 4,
+          "rfm_total_score": 9,
+          "rfm_segment": "At Risk"
+        },
+        {
+          "customer_id": "C100002",
+          "recency_days": 441,
+          "frequency": 2,
+          "monetary": 60762.6125,
+          "r_score": 1,
+          "f_score": 2,
+          "m_score": 3,
+          "rfm_total_score": 6,
+          "rfm_segment": "Hibernating"
+        },
+        {
+          "customer_id": "C100005",
+          "recency_days": 207,
+          "frequency": 1,
+          "monetary": 16546.36,
+          "r_score": 2,
+          "f_score": 1,
+          "m_score": 1,
+          "rfm_total_score": 4,
+          "rfm_segment": "Lost"
+        },
+        {
+          "customer_id": "C100006",
+          "recency_days": 211,
+          "frequency": 2,
+          "monetary": 51078.005000000005,
+          "r_score": 2,
+          "f_score": 2,
+          "m_score": 3,
+          "rfm_total_score": 7,
+          "rfm_segment": "Hibernating"
+        },
+        {
+          "customer_id": "C100007",
+          "recency_days": 22,
+          "frequency": 2,
+          "monetary": 43114.613,
+          "r_score": 4,
+          "f_score": 2,
+          "m_score": 3,
+          "rfm_total_score": 9,
+          "rfm_segment": "New Customers"
+        },
+        {
+          "customer_id": "C100010",
+          "recency_days": 201,
+          "frequency": 2,
+          "monetary": 24133.83,
+          "r_score": 2,
+          "f_score": 2,
+          "m_score": 2,
+          "rfm_total_score": 6,
+          "rfm_segment": "Lost"
+        },
+        {
+          "customer_id": "C100011",
+          "recency_days": 23,
+          "frequency": 13,
+          "monetary": 272310.2745,
+          "r_score": 4,
+          "f_score": 5,
+          "m_score": 5,
+          "rfm_total_score": 14,
+          "rfm_segment": "Champions"
+        },
+        {
+          "customer_id": "C100013",
+          "recency_days": 22,
+          "frequency": 4,
+          "monetary": 105310.6415,
+          "r_score": 4,
+          "f_score": 4,
+          "m_score": 4,
+          "rfm_total_score": 12,
+          "rfm_segment": "Champions"
+        },
+        {
+          "customer_id": "C100014",
+          "recency_days": 220,
+          "frequency": 2,
+          "monetary": 40911.79,
+          "r_score": 2,
+          "f_score": 2,
+          "m_score": 3,
+          "rfm_total_score": 7,
+          "rfm_segment": "Hibernating"
+        },
+        {
+          "customer_id": "C100015",
+          "recency_days": 4,
+          "frequency": 3,
+          "monetary": 86421.609,
+          "r_score": 5,
+          "f_score": 3,
+          "m_score": 4,
+          "rfm_total_score": 12,
+          "rfm_segment": "Loyal Customers"
+        },
+        {
+          "customer_id": "C100016",
+          "recency_days": 22,
+          "frequency": 7,
+          "monetary": 134172.536,
+          "r_score": 4,
+          "f_score": 5,
+          "m_score": 5,
+          "rfm_total_score": 14,
+          "rfm_segment": "Champions"
+        },
+        {
+          "customer_id": "C100017",
+          "recency_days": 82,
+          "frequency": 2,
+          "monetary": 24910.2,
+          "r_score": 3,
+          "f_score": 2,
+          "m_score": 2,
+          "rfm_total_score": 7,
+          "rfm_segment": "Hibernating"
+        },
+        {
+          "customer_id": "C100018",
+          "recency_days": 149,
+          "frequency": 1,
+          "monetary": 24399.05,
+          "r_score": 2,
+          "f_score": 1,
+          "m_score": 2,
+          "rfm_total_score": 5,
+          "rfm_segment": "Lost"
+        },
+        {
+          "customer_id": "C100019",
+          "recency_days": 393,
+          "frequency": 3,
+          "monetary": 55448.167,
+          "r_score": 1,
+          "f_score": 3,
+          "m_score": 3,
+          "rfm_total_score": 7,
+          "rfm_segment": "At Risk"
+        },
+        {
+          "customer_id": "C100020",
+          "recency_days": 65,
+          "frequency": 9,
+          "monetary": 199134.932,
+          "r_score": 3,
+          "f_score": 5,
+          "m_score": 5,
+          "rfm_total_score": 13,
+          "rfm_segment": "Loyal Customers"
+        },
+        {
+          "customer_id": "C100022",
+          "recency_days": 8,
+          "frequency": 2,
+          "monetary": 35068.215500000006,
+          "r_score": 5,
+          "f_score": 2,
+          "m_score": 2,
+          "rfm_total_score": 9,
+          "rfm_segment": "New Customers"
+        },
+        {
+          "customer_id": "C100023",
+          "recency_days": 272,
+          "frequency": 4,
+          "monetary": 101879.545,
+          "r_score": 2,
+          "f_score": 4,
+          "m_score": 4,
+          "rfm_total_score": 10,
+          "rfm_segment": "Cannot Lose Them"
+        },
+        {
+          "customer_id": "C100024",
+          "recency_days": 329,
+          "frequency": 1,
+          "monetary": 65102.04,
+          "r_score": 1,
+          "f_score": 1,
+          "m_score": 4,
+          "rfm_total_score": 6,
+          "rfm_segment": "Hibernating"
+        },
+        {
+          "customer_id": "C100025",
+          "recency_days": 162,
+          "frequency": 2,
+          "monetary": 41245.1,
+          "r_score": 2,
+          "f_score": 2,
+          "m_score": 3,
+          "rfm_total_score": 7,
+          "rfm_segment": "Hibernating"
+        },
+        {
+          "customer_id": "C100026",
+          "recency_days": 55,
+          "frequency": 4,
+          "monetary": 60844.7555,
+          "r_score": 4,
+          "f_score": 4,
+          "m_score": 3,
+          "rfm_total_score": 11,
+          "rfm_segment": "Loyal Customers"
+        }
+      ]
+    },
+    "_context_note": "Large section compacted to preserve valid JSON and critical evidence."
+  }
+}
